@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Items from "./Items";
+import Products from "./Products";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 
                  <Banner></Banner>
                  <Items></Items>
+                 <Products></Products>
 
 
 
