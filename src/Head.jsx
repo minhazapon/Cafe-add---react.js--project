@@ -10,7 +10,7 @@ const Head = () => {
 
 
             
-             <div className=' flex justify-center items-center gap-3 bg-no-repeat bg-cover rounded-2xl'  
+             <div className=' border-[1px] border-[#994735] flex justify-center items-center gap-3 bg-no-repeat bg-cover rounded-2xl'  
               style={{backgroundImage:  "url(https://i.ibb.co/6P3vvsW/15-Bv6-UT1-T0.png)"}}     >
                 
                 <img className=' h-[80px] mt-3' src={logo} alt="" />
