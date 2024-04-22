@@ -23,7 +23,7 @@ const Footer = () => {
      
 
 
-        <div className=' mt-20 '>
+        <div className=' flex-col md:flex-row mt-20 flex justify-center items-center gap-60 bg-no-repeat bg-cover p-3 '   style={{backgroundImage:  "url(https://i.ibb.co/pRhb9Q9/13.png)"}}  >
 
 
             <div>
@@ -64,7 +64,32 @@ const Footer = () => {
             </div>
 
 
+       
+        <div>
 
+
+          <h1 className=' text-4xl font-bold  text-[#6C3428] '>Connect with Us</h1>
+
+
+        <div>
+
+               <input className=' h-[40px] w-[400px] p-3 bg-[#6C3428]  text-black rounded-2xl mt-3
+                ' placeholder='Name' type="text" />
+                <br></br>
+                <input  className=' h-[40px] w-[400px] p-3 bg-[#6C3428]  text-black rounded-2xl mt-3   ' type="email" name="Email" id="" placeholder='Email' />
+               <br></br>
+
+               <textarea className=' h-[40px] w-[400px] p-3 bg-[#6C3428]  text-black rounded-2xl mt-3   ' placeholder='Message' name="message" id="" cols="30" rows="10"></textarea>
+
+           </div>
+ 
+  
+            <input className=' btn w-[400px]  border-[1px] border-[#6C3428]  text-[#6C3428] text-xl ' type="submit" value="Submit" />
+
+
+        
+
+        </div>
 
 
             
