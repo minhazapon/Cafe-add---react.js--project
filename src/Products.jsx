@@ -16,6 +16,7 @@ import c1 from '../src/assets/images/images/card icons/delete.png'
 import c2 from '../src/assets/images/images/card icons/pencil (1).png'
 
 import c3 from '../src/assets/images/images/card icons/view (1).png'
+import { Link } from 'react-router-dom'
 
 
   //-----------------
@@ -36,6 +37,10 @@ const Products = () => {
                        <h1 className=" text-xl text-center">--- Sip & Savor ---</h1>
                        <h1 className=" text-center text-4xl text-[#994735] font-bold ">Our Popular Products</h1>
 
+
+                       <Link  to="/form" >
+
+
                        <div className=" flex justify-center">
                        <button className=" mt-5 text-center flex items-center btn bg-[#ED9455] text-white">Add Coffee   
 
@@ -43,6 +48,8 @@ const Products = () => {
 
                        </button>
                        </div>
+
+                       </Link>
 
 
                    </div>
