@@ -11,6 +11,7 @@ import Head from './Head';
 import Home from './Home';
 import Form from './Form';
 import Shop from './Shop';
+import Up from './Up';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop>,
+      },
+      {
+        path: "/up",
+        element: <Up></Up>,
       },
     ],
   },
