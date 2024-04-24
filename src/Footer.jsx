@@ -50,7 +50,7 @@ const Footer = () => {
                 
 
                 <div className=' mt-5 flex items-center gap-2'>
-                   <img className=' h-[30px]  ' src={phn} alt="" />
+                   <img className='  h-[30px]  ' src={phn} alt="" />
                    <p   className=' text-xl font-bold text-[#6C3428]' >019500000000</p>
                 </div>
                 <div className=' mt-5 flex items-center gap-2'>

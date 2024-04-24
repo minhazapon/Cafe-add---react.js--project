@@ -8,6 +8,7 @@
  import c6 from '../src/assets/images/images/cups/Rectangle 14.png'
  import c7 from '../src/assets/images/images/cups/Rectangle 15.png'
  import c8 from '../src/assets/images/images/cups/Rectangle 16.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -79,6 +80,41 @@ const Follow = () => {
 
 
             </div>
+
+
+         <div className=' ml-14 mr-10'>
+
+                 
+
+       
+           <Link to="/shop"  >
+           <button className=' text-white bg-[#AF8260] btn flex items-center gap-2'>Going to Our Shop
+
+
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+</svg>
+
+
+           </button>
+           </Link>
+
+
+
+
+
+
+
+
+
+
+
+
+         </div>
+
+
+
+
             
         </div>
     );

@@ -44,7 +44,7 @@ const Products = () => {
                        <div className=" flex justify-center">
                        <button className=" mt-5 text-center flex items-center btn bg-[#ED9455] text-white">Add Coffee   
 
-                        <img className=" h-[30px]" src="https://i.ibb.co/qdxSKLc/coffee-cup.png" alt="" />
+                        <img className=" h-[30px]    " src="https://i.ibb.co/qdxSKLc/coffee-cup.png" alt="" />
 
                        </button>
                        </div>
@@ -61,10 +61,7 @@ const Products = () => {
 
 
             <div className=' flex justify-center gap-10 mt-10'>
-     
-
              <div className=' grid  md:grid-cols-2 gap-8'>
-
                       <div className=' bg-violet-100 p-4 rounded-xl'>
                              <div className=' flex items-center'>
                                   <img className=' h-[200px] w-[150px] ' src={p1} alt="" />
@@ -77,7 +74,7 @@ const Products = () => {
                                       </span>  890 Taka</h1>
                                   </div>
                                   <div className=' ml-10'>
-                                        <img className=' rounded-lg bg-[#ED9455] p-2 h-[40px]' src={c3} alt="" />
+                                        <img className=' focus:dark:ring-violet-600    rounded-lg bg-[#ED9455] p-2 h-[40px]' src={c3} alt="" />
                                         <img className=' rounded-lg mt-3  bg-blue-600 p-2 h-[40px]' src={c2} alt="" />
                                         <img className=' rounded-lg mt-3 bg-red-600 p-2 h-[40px]' src={c1} alt="" />
                                   </div>
@@ -93,7 +90,7 @@ const Products = () => {
                                   <img  className=' h-[200px] w-[150px] ' src={p2} alt="" />
                                   <div>
                                       <h1 className=' text-xl'>  <span className=' font-bold'>Name: 
-                                      </span> Americano Coffe</h1>
+                                      </span> Americano Coffee</h1>
                                       <h1 className=' text-xl'>  <span className=' font-bold'>Chef: 
                                       </span> Mr. matin Paul</h1>
                                       <h1 className=' text-xl'>  <span className=' font-bold'>Price: 
